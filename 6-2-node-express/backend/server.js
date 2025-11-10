@@ -10,6 +10,7 @@ app.listen(PORT, () => {
 
 {/*write code for cors*/}
 
+app.use(cors());
 
 {/*write code to define routes*/}
 
